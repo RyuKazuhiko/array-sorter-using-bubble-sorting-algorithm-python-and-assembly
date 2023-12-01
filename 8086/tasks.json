@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "masm",
+            "type": "shell",
+            "command": "ml.exe",
+            "args": [
+                "/c",
+                "/coff",
+                "bubble_sort.asm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
